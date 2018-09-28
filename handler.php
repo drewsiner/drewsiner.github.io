@@ -14,13 +14,13 @@ use FormGuide\Handlx\FormHandler;
 $pp = new FormHandler(); 
 
 $validator = $pp->getValidator();
-$validator->fields(['name','email'])->areRequired()->maxLength(50);
+$validator->fields(['name', 'email'])->areRequired()->maxLength(50);
 $validator->field('email')->isEmail();
 $validator->field('message')->maxLength(6000);
 
 
 
 
-$pp->sendEmailTo('hello@starset.com'); // ← Your email here
+$pp->sendEmailTo('hello@starsetsound.com'); // ← Your email here
 
 echo $pp->process($_POST);
