@@ -78,6 +78,22 @@
     scale: 0
   });
 
+  window.sr = ScrollReveal({ duration: 1200 });
+  sr.reveal('.intro-title', {
+    delay: 50,
+    scale: 0
+  });
+  sr.reveal('.punch-title', {
+    delay: 600,
+    scale: 0
+  });
+  sr.reveal('.body-intro', {
+    delay: 1300,
+    scale: 0
+  });
+
+object.onmouseover = function(){myScript};
+
   /*// Magnific popup calls
   $('.popup-gallery').magnificPopup({
     delegate: 'a',
