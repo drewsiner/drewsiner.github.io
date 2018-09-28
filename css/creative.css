@@ -65,12 +65,15 @@ img::-moz-selection{
 	color:#fff;
 	background:0 0
 	}
+
+
 #mainNav{
 	border-bottom:1px solid rgba(33,37,41,.1);
 	background-color:#fff;
 	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
 	-webkit-transition:all .2s;
-	transition:all .2s
+	transition:all .2s;
+
 	}
 #mainNav .navbar-brand{
 	font-weight:700;
@@ -101,7 +104,9 @@ img::-moz-selection{
 @media (min-width:992px){
 	#mainNav{
 		border-color:transparent;
-		background-color:transparent
+		background-color:transparent;
+		margin-left: -20px;
+	margin-right: -20px;
 	}
 	#mainNav .navbar-brand{
 		color: #E6E6E6;
