@@ -146,7 +146,9 @@ header.masthead{
 	padding-bottom:calc(10rem - 56px);
 	background-image:url(../img/masthead/header.jpg);
 	background-position:center center;
-	background-size:cover
+	background-size:cover;
+  }
+
 	}
 header.masthead hr{
 	margin-top:30px;margin-bottom:30px
@@ -155,7 +157,7 @@ header.masthead h1{
 	font-size:2rem
 	}
 header.masthead p{
-	font-weight:100
+	font-weight:300
 	}
 
 @media (min-width:768px){
@@ -370,12 +372,81 @@ header.masthead p{
     cursor: pointer;
     font-family: Helvetica;
     color: #495057;
-    text-transform: uppercase;
+
 }
 
 .astext:hover {
 	color: black;
 }
+
+
+
+#more-arrows {
+  width: 75px;
+  height: 65px;
+}
+#more-arrows:hover polygon {
+  fill: #495057;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+#more-arrows:hover polygon.arrow-bottom {
+  -webkit-transform: translateY(-18px);
+          transform: translateY(-18px);
+}
+#more-arrows:hover polygon.arrow-top {
+  -webkit-transform: translateY(18px);
+          transform: translateY(18px);
+}
+
+polygon {
+  fill: #495057;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+polygon.arrow-middle {
+  opacity: 0.75;
+}
+polygon.arrow-top {
+  opacity: 0.5;
+}
+
+
+#more-arrows-about {
+  width: 75px;
+  height: 65px;
+  margin-top: 30px;
+  margin-bottom: -55px;
+}
+#more-arrows-about:hover polygon {
+  fill: rgba(255,255,255,.9);
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+#more-arrows-about:hover polygon.arrow-bottom {
+  -webkit-transform: translateY(-18px);
+          transform: translateY(-18px);
+}
+#more-arrows-about:hover polygon.arrow-top {
+  -webkit-transform: translateY(18px);
+          transform: translateY(18px);
+}
+
+#about polygon {
+  fill: rgba(255,255,255,.7);
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+polygon.arrow-middle {
+  opacity: 0.75;
+}
+polygon.arrow-top {
+  opacity: 0.5;
+}
+
+
+
+
 
 
 /* END HACKED FOOTER*/
