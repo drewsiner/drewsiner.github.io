@@ -169,12 +169,12 @@ header.masthead p{
 		font-size:4rem
 		}}
 
-.service-box{max-width:400px}
+.service-box{max-width:2000px}
 .portfolio-box{
 	position:relative;
 	display:block;
-	max-width:650px;
-	margin:0 auto
+	max-width:2000px;
+	margin:0 auto;
 	}
 
 .portfolio-box .portfolio-box-caption{
@@ -186,9 +186,11 @@ header.masthead p{
 	text-align:center;
 	opacity:0;
 	color:#fff;
-	background: #27233A;
+
 	-webkit-transition:all .2s;
-	transition:all .2s
+	transition:all .2s;
+
+	
 	}
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content{
 	position:absolute;
@@ -196,15 +198,18 @@ header.masthead p{
 	-webkit-transform:translateY(-50%);
 	transform:translateY(-50%);t
 	ext-align:center;
-
 	}
+
 
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name{
-	padding:0 15px;font-family:'Open Sans','Helvetica Neue',Arial,sans-serif
+	padding:0 15px;
+	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif
 	}
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category{
-	font-size:14px;font-weight:600;text-transform:uppercase
+	font-size:14px;
+	font-weight:600;
+	text-transform:uppercase
 	}
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name{
 	font-size:18px
@@ -215,6 +220,25 @@ header.masthead p{
 .portfolio-box:focus{
 	outline:0
 	}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.48);
+}
+
+.container:hover .overlay:hover {
+  opacity: 1;
+}
+
 
 @media (min-width:768px){
 	.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category{
@@ -241,6 +265,7 @@ header.masthead p{
 .btn-primary{
 	background-color:#A1A1A1;
 	border-color:#FCFCFC;
+	border-width: 0px;
 	}
 .btn-primary:active,.btn-primary:focus,.btn-primary:hover{
 	color:#fff;background-color:#102956!important
@@ -255,6 +280,7 @@ header.masthead p{
 }
 
 
+
 /* THIS IS HACKED TOGETHER FOOTER*/
   footer {
   	width: 100%;
@@ -266,6 +292,9 @@ header.masthead p{
 
   }
 
+#contact p {
+	padding-right: 45px;
+}
 
   .fa {
   	padding: 20px;

@@ -66,11 +66,15 @@
     scale: 0.8
   });
   sr.reveal('.sr-contact-1', {
-    delay: 200,
+    delay: 150,
     scale: 0
   });
   sr.reveal('.sr-contact-2', {
-    delay: 400,
+    delay: 300,
+    scale: 0
+  });
+  sr.reveal('.sr-contact-3', {
+    delay: 450,
     scale: 0
   });
 
