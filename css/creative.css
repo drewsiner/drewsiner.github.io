@@ -355,6 +355,16 @@ header.masthead p{
 	}
 }
 
+#contact a {
+	color: #212529;
+}
+
+#contact a:hover {
+	color: #102956;
+}
+
+
+
 .gimme-email {
 	border-bottom: 1px solid #ced4da;
 	outline: none;
