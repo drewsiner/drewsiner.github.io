@@ -17,7 +17,7 @@
   });
 
   // Closes responsive menu when a scroll trigger link is clicked
-  $('.js-scroll-trigger').click(function() {
+  $('.js-scroll-trigger').click(function() {    
     $('.navbar-collapse').collapse('hide');
   });
 
@@ -78,18 +78,26 @@
     scale: 0
   });
 
-  window.sr = ScrollReveal({ duration: 1200 });
+  window.sr = ScrollReveal({ duration: 1500 });
   sr.reveal('.intro-title', {
-    delay: 50,
-    scale: 0
+    delay: 0,
+    scale: 1
   });
   sr.reveal('.punch-title', {
-    delay: 600,
-    scale: 0
+    delay: 0,
+    scale: 1
+  });
+  sr.reveal('.dash-intro', {
+    delay: 0,
+    scale: 1
   });
   sr.reveal('.body-intro', {
-    delay: 1300,
-    scale: 0
+    delay: 0,
+    scale: 1
+  });
+  sr.reveal('.arrow-intro', {
+    delay: 0,
+    scale: 1
   });
 
 object.onmouseover = function(){myScript};

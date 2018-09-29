@@ -7,7 +7,7 @@
 	height:100%
 	}
 body{
-	font-family:Merriweather,'Helvetica Neue',Arial,sans-serif
+	font-family: 'Roboto','Helvetica Neue',sans-serif;
 	}
 hr{
 	max-width:50px;
@@ -17,6 +17,10 @@ hr{
 hr.light{
 	border-color:#fff
 	}
+
+.about hr {
+	border-color: rgba(255,255,255,.9);
+}
 a{
 	color:#1d4a9d;
 	-webkit-transition:all .2s;
@@ -27,7 +31,7 @@ a:hover{
 	}
 h1,h2,h3,h4,h5,h6{
 	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;
-	font-style: light;
+	font-style: regular;
 	font-weight: 100;
 	}
 .bg-primary{
@@ -81,7 +85,9 @@ img::-moz-selection{
 	font-weight:700;
 	text-transform:uppercase;
 	color:#A1A1A1;
-	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif
+	font-family:'Open Sans','Helvetica Neue',Arial,sans-serif:;
+	font-type: light;
+	font-weight: 700;
 	}
 #mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{
 	color:#A1A1A1
@@ -308,7 +314,7 @@ header.masthead p{
   .fa {
   	padding: 20px;
   	font-size: 34px;
-  	color: #717171;
+  	color: #8A8A8A;
   }
 
   .fa:hover {
@@ -334,7 +340,7 @@ header.masthead p{
     height: calc(2.25rem + 2px);
     font-size: 1rem;
     line-height: 1.5;
-    color: #495057;
+    color: #3F3F3F;
     background-color: #fff;
     background-clip: padding-box;
     border-top: 0px ;
@@ -353,7 +359,7 @@ header.masthead p{
     height: calc(8.5rem + 2px);
     font-size: 1rem;
     line-height: 1.5;
-    color: #495057;
+    color: #3F3F3F;
     background-color: #fff;
     background-clip: padding-box;
     border-top: 0px ;
@@ -364,6 +370,28 @@ header.masthead p{
 }
 
 
+
+::-webkit-input-placeholder {
+  color: #8A8A8A;
+  font-size: 13px;
+  font-family: helvetica;
+}
+::-moz-placeholder {
+  color: #8A8A8A;
+  font-size: 13px;
+  font-family: helvetica;
+}
+:-ms-input-placeholder {
+  color: #8A8A8A;
+  font-size: 13px;
+  font-family: helvetica;
+}
+::placeholder {
+  color: #8A8A8A;
+  font-size: 13px;
+  font-family: helvetica;
+}
+
 .formbtn {
     background:none;
     border:none;
@@ -371,7 +399,7 @@ header.masthead p{
     padding:0;
     cursor: pointer;
     font-family: Helvetica;
-    color: #495057;
+    color: #8A8A8A;
 
 }
 
@@ -451,10 +479,30 @@ polygon.arrow-top {
 }
 
 
+.example_c {
+color: #494949 !important;
+text-transform: uppercase;
+background: #ffffff;
+padding: 0px;
+border: 0.5px solid #3F3F3F !important;
+border-radius: 6px;
+display: inline-block;
+height: 40px;
+width: 180px;
+text-align: center;
+vertical-align: middle;
+margin: 0 auto;
+font-family: 'Open Sans';
+font-weight: 400;
 
+}
 
-
-
+.example_c:hover {
+color: #ffffff !important;
+background: #102956;
+border-color: #102956 !important;
+transition: all 0.4s ease 0s;
+}
 /* END HACKED FOOTER*/
 
 
