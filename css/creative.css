@@ -375,6 +375,12 @@ header.masthead p{
 
 }
 
+.formbtn:hover {
+	color: black;
+	size: 110%;
+
+}
+
 .astext:hover {
 	color: black;
 }
