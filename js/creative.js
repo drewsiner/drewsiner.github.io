@@ -44,19 +44,19 @@
   window.sr = ScrollReveal();
 
   sr.reveal('.sr-icon-1', {
-    delay: 200,
+    delay: 190,
     scale: 0
   });
   sr.reveal('.sr-icon-2', {
-    delay: 400,
+    delay: 380,
     scale: 0
   });
   sr.reveal('.sr-icon-3', {
-    delay: 600,
+    delay: 570,
     scale: 0
   });
   sr.reveal('.sr-icon-4', {
-    delay: 800,
+    delay: 760,
     scale: 0
   });
   sr.reveal('.sr-button', {

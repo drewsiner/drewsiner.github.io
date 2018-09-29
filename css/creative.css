@@ -159,6 +159,11 @@ header.masthead{
 	background-size:cover;
   }
 
+@media (max-width: 650px) {
+  header.masthead {
+    background-image: url(../img/masthead/header-mobile.jpg);
+  }
+
 	}
 header.masthead hr{
 	margin-top:30px;margin-bottom:30px
