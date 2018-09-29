@@ -147,6 +147,10 @@ img::-moz-selection{
 		color:#212529 
 	}}
 
+.contact-nav {
+	background-color: gray;
+}
+
 header.masthead{
 	padding-top:10rem;
 	padding-bottom:calc(10rem - 56px);
@@ -160,15 +164,25 @@ header.masthead hr{
 	margin-top:30px;margin-bottom:30px
 	}
 header.masthead h1{
-	font-size:2rem
+	font-size:2rem;
+	font-weight:200;
 	}
 header.masthead p{
-	font-weight:300
+	font-weight:270;
+	max-width: 400px;
+	margin: auto;
+
 	}
+
+.masthead h2 {
+	font-size: 1.7em;
+	font-weight: 500;
+}
 
 @media (min-width:768px){
 	header.masthead p{
-		font-size:1.15rem
+		font-size:1.3rem;
+			font-weight:250;
 		}}
 
 @media (min-width:992px){
@@ -176,7 +190,8 @@ header.masthead p{
 		height:100vh;min-height:650px;padding-top:0;padding-bottom:0
 		}
 	header.masthead h1{
-		font-size:3rem
+		font-size:3rem;
+		
 		}}
 
 @media (min-width:1200px){
@@ -204,9 +219,8 @@ header.masthead p{
 
 	-webkit-transition:all .2s;
 	transition:all .2s;
-
-	
 	}
+
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content{
 	position:absolute;
 	top:50%;width:100%;
@@ -214,8 +228,6 @@ header.masthead p{
 	transform:translateY(-50%);t
 	ext-align:center;
 	}
-
-
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name{
 	padding:0 15px;
@@ -309,8 +321,14 @@ header.masthead p{
 
 #contact p {
 	padding-right: 45px;
+	font-size: 1.3em;
+	font-weight: 320;
 }
-
+#contact h2 {
+	padding-bottom: 5px;
+	font-size: 2.3em;
+	font-weight: 600;
+}
   .fa {
   	padding: 20px;
   	font-size: 34px;
@@ -506,6 +524,47 @@ background: #102956;
 border-color: #102956 !important;
 transition: all 0.4s ease 0s;
 }
-/* END HACKED FOOTER*/
 
+.example_c2 {
+color: rgba(255,255,255,.7);
+text-transform: uppercase;
+padding: 0px;
+border: 0.5px solid rgba(255,255,255,.7);
+border-radius: 6px;
+display: inline-block;
+height: 40px;
+width: 160;
+text-align: center;
+vertical-align: middle;
+margin: 0 auto;
+font-family: 'Open Sans';
+font-weight: 400;
 
+}
+
+.example_c2:hover {
+color: #ffffff !important;
+background: #102956;
+border-color: #102956 !important;
+transition: all 0.4s ease 0s;
+}
+#services h2 {
+	font-size: 2.7em;
+}
+#services h3 {
+	font-size: 2.2em;
+}
+
+#services p {
+	font-size: 1.2em;
+}
+
+#about h2 {
+	font-size: 2.8em;
+	font-weight: 270;
+}
+
+#about p {
+	font-size: 1.37em;
+	font-weight: 300;
+}
