@@ -138,7 +138,7 @@ img::-moz-selection{
 		color:#102956
 	}
 	#mainNav.navbar-shrink .navbar-brand:focus,#mainNav.navbar-shrink .navbar-brand:hover{
-		color:#102956
+		color:#717171
 	}
 	#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus{
 		color:#717171
@@ -369,6 +369,9 @@ header.masthead p{
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.example_c:hover {
+	cursor: pointer;
+}
 
 
 ::-webkit-input-placeholder {
