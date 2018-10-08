@@ -36,7 +36,8 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: 100;
 	}
 .bg-primary{
-	background-color:#102956!important
+	background-color:rgba(16, 41, 86, 1)!important
+
 	}
 .bg-dark{
 	background-color:#212529!important
@@ -164,13 +165,12 @@ header.masthead{
   header.masthead {
     background-image: url(../img/masthead/header-mobile.jpg);
   }
-
 	}
 header.masthead hr{
 	margin-top:30px;margin-bottom:30px
 	}
 header.masthead h1{
-	font-size:2rem;
+	font-size:4rem;
 	font-weight:200;
 	}
 header.masthead p{
@@ -181,13 +181,13 @@ header.masthead p{
 	}
 
 .masthead h2 {
-	font-size: 1.7em;
+	font-size: 1.1em;
 	font-weight: 500;
 }
 
 @media (min-width:768px){
 	header.masthead p{
-		font-size:1.3rem;
+		font-size:1.5rem;
 			font-weight:250;
 		}}
 
@@ -196,14 +196,19 @@ header.masthead p{
 		height:100vh;min-height:650px;padding-top:0;padding-bottom:0
 		}
 	header.masthead h1{
-		font-size:3rem;
+		font-size:4.4rem;
 		
 		}}
 
 @media (min-width:1200px){
 	header.masthead h1{
-		font-size:4rem
-		}}
+		font-size:6rem;
+		font-weight: 150;
+		}
+		.masthead h2 {
+	font-size: 1.7em;
+	font-weight: 500;
+}}
 
 .service-box{max-width:2000px}
 .portfolio-box{
@@ -597,6 +602,17 @@ transition: all 0.4s ease 0s;
 #services p {
 	font-size: 1.2em;
 }
+
+.moving-img {
+	background-image:url(../img/masthead/ptest.jpg);
+	background-position:center center;
+	background-size:cover;
+	position: fixed;	
+	z-index: -1;
+	height: 4000px;
+	}
+
+
 
 #about h2 {
 	font-size: 2.8em;

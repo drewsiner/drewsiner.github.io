@@ -99,6 +99,14 @@
     delay: 0,
     scale: 1
   });
+  sr.reveal('p-intro1', {
+    delay: 0,
+    scale: 1
+  });
+  sr.reveal('p-intro2', {
+    delay: 200,
+    scale: 1
+  });
 
 object.onmouseover = function(){myScript};
 
